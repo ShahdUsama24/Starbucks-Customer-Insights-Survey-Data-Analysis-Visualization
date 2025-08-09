@@ -1,4 +1,4 @@
-# Starbucks-Customer-Insights-Survey-Data-Analysis-Visualization
+# # Starbucks Customer Satisfaction Survey Analysis
 Starbucks Customer Insights from survey data using Python (Pandas, NumPy, Matplotlib, Seaborn). Analysis covers demographics, spending, visit habits, loyalty, and satisfaction ratings to uncover patterns and guide marketing strategies.
 # Starbucks Customer Insights — Survey Data Analysis & Visualization
 
@@ -18,11 +18,11 @@ The dataset includes survey responses covering:
 ---
 
 ## 🎯 Objectives
-- Clean and prepare survey data for analysis
-- Convert currency values (RM → USD) for standardization
-- Compare loyalty with demographic and behavioral factors
-- Identify relationships between income and satisfaction ratings
-- Analyze visit patterns in relation to spending and product choices
+1. **Data Cleaning:** Standardized column names and addressed missing values.  
+2. **Exploratory Data Analysis (EDA):** Visualized key variables to detect patterns and trends.  
+3. **Predictive Modeling:** Developed and compared multiple predictive models to identify key factors influencing customer satisfaction.  
+4. **Insights:** Identified main drivers of customer satisfaction and demographic influences based on model results.  
+5. **Recommendations:** Provided strategic suggestions to improve customer experience and promotional effectiveness.
 
 ---
 
@@ -42,4 +42,13 @@ The dataset includes survey responses covering:
 - Multi-variable comparisons for visit behavior
 
 ---
+
+
+
+
+## How to Run
+
+1. Clone the repository.  
+2. Ensure all dependencies are installed.  
+3. Execute the Jupyter notebook cells to reproduce the analysis, modeling, and visualizations.
 
