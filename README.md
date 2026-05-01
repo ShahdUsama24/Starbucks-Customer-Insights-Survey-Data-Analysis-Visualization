@@ -63,6 +63,11 @@ The dataset includes survey responses covering:
 - Ambiance and service quality are the strongest satisfaction drivers  
 
 ---
+<img width="1293" height="1161" alt="01_correlation_heatmap" src="https://github.com/user-attachments/assets/34a81c6b-712b-4e59-ab9c-aa2302e55df3" />
+<img width="723" height="765" alt="02_age_distribution" src="https://github.com/user-attachments/assets/ef580adc-189a-496c-aaeb-45ad646ec19f" />
+<img width="1625" height="811" alt="05_visit_freq_by_age" src="https://github.com/user-attachments/assets/d5ca4fec-0d9e-43a6-85fe-2ffacf03d83a" />
+
+
 
 ## Business Recommendations
 - Introduce targeted promotions for low-frequency customers  
