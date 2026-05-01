@@ -1,54 +1,82 @@
-# # Starbucks Customer Satisfaction Survey Analysis
-Starbucks Customer Insights from survey data using Python (Pandas, NumPy, Matplotlib, Seaborn). Analysis covers demographics, spending, visit habits, loyalty, and satisfaction ratings to uncover patterns and guide marketing strategies.
-# Starbucks Customer Insights — Survey Data Analysis & Visualization
+# Starbucks Customer Satisfaction & Behavior Analysis  
 
-This project analyzes Starbucks customer survey data to uncover insights about demographics, spending habits, visit behavior, product preferences, and brand loyalty.  
-Using **Python** and data visualization techniques, the analysis helps identify trends that can guide Starbucks’ marketing and customer engagement strategies.
+![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-2.0-150458?style=flat&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-1.24-013243?style=flat&logo=numpy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-3.7-11557C?style=flat)
+![Seaborn](https://img.shields.io/badge/Seaborn-0.12-4C72B0?style=flat)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=flat&logo=jupyter&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green?style=flat)
+
+Data-driven customer insights from Starbucks survey data using Python. This project analyzes demographics, spending behavior, visit patterns, and satisfaction metrics to uncover actionable business insights.
+
+# Customer Insights — Survey Data Analysis & Visualization
+
+This project explores Starbucks customer survey data to understand user behavior, preferences, and satisfaction drivers.  
+Through **exploratory data analysis and visualization**, it identifies patterns that can guide marketing strategies, improve customer experience, and increase brand loyalty.
 
 ---
 
-## 📊 Dataset Overview
+## Dataset Overview
 The dataset includes survey responses covering:
+
 - **Demographics**: Gender, Age Group, Employment Status, Annual Income  
-- **Behavior**: Visit Frequency, Visit Type, Visit Duration, Nearest Outlet Distance  
-- **Spending**: Frequent Purchase, Average Spend per Visit (converted from RM to USD)  
-- **Loyalty**: Membership Card Status, Continue Buying Intentions  
-- **Ratings**: Quality, Price, Promotion Importance, Ambiance, WiFi, Service
+- **Behavior**: Visit Frequency, Visit Type, Visit Duration, Distance to Nearest Outlet  
+- **Spending**: Frequent Purchases, Average Spend per Visit  
+- **Loyalty**: Membership Card Status, Repurchase Intentions  
+- **Satisfaction Metrics**: Product Quality, Pricing, Promotions, Ambiance, WiFi, Service  
 
 ---
 
-## 🎯 Objectives
-1. **Data Cleaning:** Standardized column names and addressed missing values.  
-2. **Exploratory Data Analysis (EDA):** Visualized key variables to detect patterns and trends.  
-3. **Predictive Modeling:** Developed and compared multiple predictive models to identify key factors influencing customer satisfaction.  
-4. **Insights:** Identified main drivers of customer satisfaction and demographic influences based on model results.  
-5. **Recommendations:** Provided strategic suggestions to improve customer experience and promotional effectiveness.
+## Objectives
+1. **Data Cleaning:** Standardize column names and handle missing values.  
+2. **Exploratory Data Analysis (EDA):** Identify patterns and trends in customer behavior.  
+3. **Visualization:** Create clear, business-focused visual insights.  
+4. **Segmentation:** Analyze customer groups based on demographics and behavior.  
+5. **Insights:** Identify key factors driving satisfaction and loyalty.  
+6. **Recommendations:** Provide actionable strategies for marketing and operations.  
 
 ---
 
-## 🛠️ Technologies Used
-- **Python**: Pandas, NumPy
-- **Visualization**: Matplotlib, Seaborn (with Starbucks color palette)
-- **Environment**: Jupyter Notebook
-- **Version Control**: Git & GitHub
+## Technologies Used
+- **Python**: Pandas, NumPy  
+- **Visualization**: Matplotlib, Seaborn  
+- **Environment**: Jupyter Notebook  
+- **Version Control**: Git & GitHub  
 
 ---
 
-## 📈 Key Visualizations
-- Bar charts & histograms for demographic distributions
-- Box plots for spending patterns by age/income
-- Line charts showing satisfaction trends by income
-- Grouped percentage charts comparing loyalty & nearest outlet
-- Multi-variable comparisons for visit behavior
+## Key Analysis Areas
+- Customer distribution by demographics  
+- Spending behavior across income groups  
+- Visit frequency and duration patterns  
+- Loyalty vs proximity to store  
+- Satisfaction drivers across customer segments  
 
 ---
 
+## Key Insights
+- Younger customers visit more frequently but spend less per visit  
+- High-income customers show higher satisfaction but lower visit frequency  
+- Customers living closer to outlets demonstrate stronger brand loyalty  
+- Promotions significantly influence occasional customers  
+- Ambiance and service quality are the strongest satisfaction drivers  
 
+---
 
+## Business Recommendations
+- Introduce targeted promotions for low-frequency customers  
+- Enhance in-store experience to improve retention  
+- Optimize store placement based on high-loyalty regions  
+- Develop loyalty programs tailored to high-value customers  
+- Focus marketing campaigns on high-impact satisfaction factors  
 
-## How to Run
+---
 
-1. Clone the repository.  
-2. Ensure all dependencies are installed.  
-3. Execute the Jupyter notebook cells to reproduce the analysis, modeling, and visualizations.
+## Author
 
+**[Shahd Usama]**
+Data Analyst | Python · SQL · Machine Learning
+
+[![[LinkedIn](https://www.linkedin.com/in/shahdusama/)](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin)]
+[![[GitHub](https://github.com/ShahdUsama24)](https://img.shields.io/badge/GitHub-Follow-181717?style=flat&logo=github)]
