@@ -1,1 +1,48 @@
+# ☕ Starbucks Customer Survey — Visual Analysis
+
+A polished, portfolio-ready re-work of an exploratory Jupyter notebook on the
+public *Starbucks Customer Satisfaction Survey* (Malaysia, n = 122).
+
+> All visuals follow a consistent Starbucks-inspired, colour-blind-aware palette
+> with publication-quality typography and layout.
+
+## 📊 What's inside
+
+| # | Visual | Insight |
+|---|---|---|
+| 1 | Correlation heatmap | Service / Ambiance / Quality form one cluster; spend tracks visit frequency |
+| 2 | Age-group donut | 70 % of respondents are Young Adults (20-29) |
+| 3 | Ratings × age group | Adults (30-39) are the happiest cohort; WiFi underperforms everywhere |
+| 4 | Spend × age (box+strip) | Spend rises monotonically with age |
+| 5 | Visit-frequency mix × age | Adults (30-39) hold the only meaningful weekly-visitor share |
+| 6 | Loyalty × age | Mature Adults are the most loyal segment |
+| 7 | Employment status | Sample dominated by students + employed professionals |
+| 8 | Duration heatmap (freq × type) | Dine-in stays 2-3× longer than take-away |
+| 9 | Rating distributions (small multiples) | WiFi & Price have unhappy tails |
+| 10 | Loyalty donut | ~80 % plan to keep buying |
+| 11 | Loyal vs Non-Loyal ratings | Quality / Service / Ambiance show the biggest loyalty gap |
+| 12 | Confusion matrices (LR / RF / XGB) | LR generalises best on this small sample |
+| 13 | Model accuracy comparison | Logistic Regression: **88 %** test accuracy |
+
+## 🗂 Repository layout
+
+```
+starbucks_portfolio/
+├── Starbucks_visual_analysis.ipynb   # the notebook
+├── figures/                          # 22 publication-quality PNGs
+└── README.md
+```
+
+## 🛠 Stack
+
+`pandas` · `numpy` · `matplotlib` · `seaborn` · `scikit-learn` · `xgboost`
+
+## 🎨 Design choices
+
+- **Brand-anchored palette**: Starbucks green (#00704A), gold (#CBA258), brown (#5A3A22).
+- **Colour-blind aware**: diverging green↔orange for correlations, single-hue greens for
+  sequential heatmaps, green/red only used for binary Yes/No (loyalty).
+- **Removed clutter**: no top/right spines, light grid, consistent title weight & colour.
+- **Annotated bars / pies** so figures are readable without consulting the table.
+
 
